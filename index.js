@@ -30,5 +30,8 @@ app.post("/webhook", (req, res) => {
   res.sendStatus(200);
 });
 
-// ⚠️ 注意：不要 app.listen
+// ❗ Vercel 一定不要 app.listen
 export default app;
+git add .
+git commit -m "fix: move express app to api folder"
+git push
